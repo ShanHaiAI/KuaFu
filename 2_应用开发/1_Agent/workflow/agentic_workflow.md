@@ -31,16 +31,17 @@
 * **多代理框架(muti-agent)**：创建两个不同的代理，一个提示生成良好的输出，另一个提示对第一个代理的输出提出建设性批评。两个代理之间的讨论有助于了响应的改进。
 
 #### Self-Refine：通过自我反馈实现迭代细化
-:construction:*building*  
-(ToDo:paper note)
+[原文链接](https://arxiv.org/abs/2303.17651)/[论文笔记](【论文笔记】SELF_REFINE.md)
+* **Self-Refine** 通过LLM针对输出内容进行反馈，提出优化意见，并进行自我优化，如此迭代直到输出更优解。
+* self-refine可以解锁大尺寸模型更多潜力，同时也要求使用的模型具有足够的理解和生成能力。
+* 反馈(feedback)的质量很大程度影响Self-Refine的效果，可以借助外部工具(如wiki等)帮助模型提出更针对性的优化意见。
+* 迭代次数可以根据固定参数或通过LLM理解达到最优情况来控制。
 
 #### Reflexion：具有语言强化学习的LM
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 #### CRITIC:LLM可以通过工具的交互式批评进行自我纠正
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 
 ### **1.2 tool use 工具调用**
@@ -59,12 +60,10 @@
 * AST子树匹配技术：基于AST子树匹配技术评估查找正确性。例如生成torch.hub.load的形式，以便用于检索数据集。
 
 #### MM-REACT：提示chatGPT进行多模式推理和行动
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 #### 通过抽象链推理实现高效工具的的使用
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 ### **1.3 planning 规划**
 [原文链接](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning)  
@@ -76,20 +75,14 @@
 
 #### 思维链(CoT)可以刺激LLM进行推理
 [原文链接](https://arxiv.org/abs/2201.11903)
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 #### HuggingGPT:通过chatGPT和他在huggingface上的朋友们，解决AI任务
-:construction:*building*  
-(ToDo:paper note)
-
+:construction:*building*
 
 #### 关于理解LLM agent的规划能力的调查
 [原文链接](https://arxiv.org/abs/2402.02716)
 :construction:*building*  
-(ToDo:paper note)
-
-
 
 
 ### **1.4 muti-agent collaboration 多智能体合作**
@@ -110,28 +103,24 @@
   * ChatDev
 
 #### ChatDev：用于软件开发的交互型agent
-:construction:*building*  
-(ToDo:paper note)
+:construction:*building*
 
 #### AutoGen:通过多代理对话启用下一代LLM应用程序
 :construction:*building*  
-(ToDo:paper note)
+
 #### MetaGPT：多代理协作框架的元编程
 :construction:*building*  
-(ToDo:paper note)
+
 
 #### 总结：主流muti-agent产品的特点
 :construction:*building*  
-(ToDo)
 
 ## **2. 其他参考案例**
 ### **2.1 DB-GPT**
 :construction:*building*  
-(ToDo)
 
 ### **2.2 DYFI**
-:construction:*building*  
-(ToDo)
+:construction:*building*
 
 
 ## **3. 个人思考**
