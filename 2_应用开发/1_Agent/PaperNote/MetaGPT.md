@@ -1,4 +1,5 @@
 # 论文 Paper
+[原始论文](https://arxiv.org/abs/2402.18679)
 ## 0. 背景 Introduction
 * 针对agent加强和替代人类工作，目前的解决方案：过于简化了复杂问题，舍弃许多有价值的合作交流。
 * SOP(标准化操作文档， Standardized Operating Procedures)可以更好的指导团队工作，提高效率和输出质量。
@@ -11,7 +12,7 @@
 
 ### 0.1 相关工作
 #### 自动化编程 Automatic Programming
-* 商业解决方案：微软Copliot
+* 商业解决方案：微软Copilot
 * 基于LLM的agent架构：ReAct + Reflexion + CoT
 * ToolFormer：提供API调用外部工具
 * 现有角色扮演框架&现有多代理协作软件开发： 存在劣势，没有整合为带有标准输出结构的工作流

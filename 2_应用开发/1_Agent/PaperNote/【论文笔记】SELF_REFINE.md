@@ -14,14 +14,14 @@ Self-refine是基于人类解决问题逻辑抽象而来的，主要分为：初
 * 优化(Refine)：使用相同的LLM，基于反馈内容来优化最近的输出内容。
 * 迭代的自我优化(Iterating SELF-REFINE)：在反馈和优化两个步骤中持续迭代，直到达到最大迭代次数或生成内容达到需要。
   * 为了帮助LLM持续迭代优化，需要在提示词中保存历史反馈和优化记录   
-![img.png](img/Self_Refine_1_examples.png)
-![img_1.png](img/Self_Refine_2_algorithm..png)
+![img.png](../workflow/img/Self_Refine_1_examples.png)
+![img_1.png](../workflow/img/Self_Refine_2_algorithm..png)
 
 ## 2. 实验
 ### 实验示例  
-![img_3.png](img/Self_Refine_4_results.png)  
+![img_3.png](../workflow/img/Self_Refine_4_results.png)  
 ### 实验结果  
-![img_2.png](img/Self_Refine_3_tasks.png)  
+![img_2.png](../workflow/img/Self_Refine_3_tasks.png)  
 ### 实验结论
 * **Self-Refine显著提升原模型能力。**
   * 在测试的各个领域中，最终结果都有明显的优化。
